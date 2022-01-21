@@ -1,0 +1,63 @@
+html {
+    cursor: url("./fly.png"), crosshair;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background: yellowgreen;
+  }
+
+  .eyes {
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+  }
+
+  .eye {
+    width: 200px;
+    height: 200px;
+    background: #fff;
+    display: inline-block;
+    margin: 40px;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .ball {
+    width: 130px;
+    height: 80px;
+    background: black;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 90%;
+  }
+
+  /* .innerball {
+    width: 60px;
+    height: 60px;
+    background: #000;
+    position: sticky;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+  } */
+
+  .mouth {
+    width: 500px;
+    height: 80px;
+    background: red;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    border-radius: 40px 40px 50% 50%;
+    border-color: darkslategray;
+    transform:translate(-50%, -50%);
+    text-align: center;
+  }
